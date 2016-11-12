@@ -54,7 +54,7 @@ h1 {
 
 table {
 	table-layout: fixed;
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 	word-wrap: break-word;
 	padding-top:10%;
@@ -63,6 +63,8 @@ table {
 th {
 	border-bottom: 1px solid #000;
 }
+
+tr {width: 30%;}
 
 th, td {
 	text-align: left;
@@ -80,3 +82,11 @@ pre {
 	margin: 0;
 }
 
+.assigned {
+	background-color: red;
+}
+.completed {
+	background-color: green;
+}
+
+button {padding: 10px; margin: 5px; border-radius: 5px;}

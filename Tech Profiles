@@ -1,0 +1,27 @@
+{
+  "vehicle_data_hub": [
+    "vdh.automotive.internetofthings.ibmcloud.com"
+  ],
+  "username": "TX-1042",
+  "tenant_id": "952e1bba-31eb-4a92-b7e7-eec0078168b5",
+  "api": "https://automotive.internetofthings.ibmcloud.com/",
+  "password": "password"
+}
+{
+  "vehicle_data_hub": [
+    "vdh.automotive.internetofthings.ibmcloud.com"
+  ],
+  "username": "TX-2063",
+  "tenant_id": "952e1bba-31eb-4a92-b7e7-eec0078168b5",
+  "api": "https://automotive.internetofthings.ibmcloud.com/",
+  "password": "password"
+}
+{
+  "vehicle_data_hub": [
+    "vdh.automotive.internetofthings.ibmcloud.com"
+  ],
+  "username": "TX-5427",
+  "tenant_id": "952e1bba-31eb-4a92-b7e7-eec0078168b5",
+  "api": "https://automotive.internetofthings.ibmcloud.com/",
+  "password": "password"
+}

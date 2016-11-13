@@ -2,11 +2,25 @@
 <html>
 
   <head>
-    <title>NodeJS Starter Application</title>
+    <title>Marvel-Lous HVAC and Plumbing</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
+	<script>
+	<div id="map" style="width:400px;height:400px"
+		function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</div>
+	<script src="https://maps.googleapis.com/maps/api/AIzaSyAyOVF6riK5QsEhtbCZ_JInhmSi5nLzzl8"></script>
+	</script>
+	
   </head>
 
   <body>
@@ -21,79 +35,76 @@
     <td class="assigned">Assigned</td>
 	<td class="completed">Completed</td>
 	</tr>
+	<div> 
+	<form>
+	<div id="map">Active Technicians 
 	
+	</form>
+	</div>
       <tr style= "width:30%;">
-          <td><u>Time Entered</u></td>
-		  <td><u>Accepted<u></td>
-		  <td><u>Completed</u></td>
-		  <td><u>JOBID</u></td>
-		<td><u>JOB Address</u></td>
-		<td><u>Technicians</u></td>
+		<td><u>JOBID</u></td>
+		<td><u>Time Job Recieved</u></td>
+          <td><u>Customer</u></td>
+		  <td><u>JOB Address</u></td>
+		  <td><u>Time Accepted<u></td>
+		  <td><u>Time Completed</u></td>
+		  <td><u>Technicians</u></td>
       </tr>
 	   <tr class="completed">
+	   <td>1234</td>
 	   <td>09:03:32AM</td>
+	   <td>Anthony Stark</td>
+	   <td>200 Park Ave, New York, NY 10166</td>
 	   <td>09:07:00AM</td>
-	   <td>10:32:58AM</td>
-          <td>1234</td>
-		<td>123 Anywhere Street</td>
+	   <td>10:32:58AM</td>          
 		<td>Eric, Tina</td>
       </tr>
 	  <tr class="completed">
+	  <td>1235</td>
 	  <td>09:04:43AM</td>
+	  <td>Peter Parker</td>
+	  <td>20 Ingram St, Flushing, NY 11375</td>
 	  <td>09:15:15AM</td>
 	  <td>10:00:14AM</td>
-          <td>1235</td>
-		<td>321 Somewhere Road</td>
 		<td>Rashaan</td>
       </tr>
 	  <tr class="assigned">
+	  <td>1236</td>
 	  <td>10:34:39AM</td>
+	  <td>Natasha Romanov</td>
+	  <td>42nd St, Manhattan, NY 10038</td>
 	  <td>10:40:09AM</td>
 	  <td></td>
-          <td>1236</td>
-		<td>339 Beechmont Drive</td>
-		<td>James</td>
+		<td>Eric</td>
       </tr>
 	  <tr class="completed">
+	  <td>1236</td>
 	  <td>10:35:40AM</td>
+	  <td>Stephen Strange</td>
+	  <td>177 Bleecker St, New York, NY 10012</td>
 	  <td>10:38:22AM</td>
 	  <td>11:20:42AM</td>
-          <td>1236</td>
-		<td>3329 Apple Drive</td>
-		<td>James</td>
+		<td>Tina</td>
       </tr>
 	  <tr class="assigned">
+	   <td>1234</td>
 	   <td>10:37:58AM</td>
+	   <td>Steve Rogers</td>
+	   <td>890 5th Ave, New York, NY 10021</td>
 	   <td>10:50:19AM</td>
 	   <td></td>
-          <td>1234</td>
-		<td>12303 Larry Avenue</td>
-		<td>Eric, Tina</td>
+	   <td>Eric, Tina</td>
       </tr>
 	  <tr class="completed">
+	  <td>1235</td>
 	  <td>10:48:43AM</td>
+	  <td>Miles Morales</td>
+	  <td>350 5th Ave, New York, NY 10118</td>
 	  <td>10:50:59AM</td>
 	  <td>11:23:51AM</td>
-          <td>1235</td>
-		<td>6043 Zebra Road</td>
 		<td>Rashaan</td>
       </tr>
-	  <tr class="completed">
-	  <td>10:56:01AM</td>
-	  <td>11:00:00AM</td>
-	  <td>11:20:08AM</td>
-          <td>1236</td>
-		<td>9503 Virignia Drive</td>
-		<td>James</td>
-      </tr>
-	  <tr class="assigned">
-	  <td>11:00:33AM</td>
-	  <td>11:11:33AM</td>
-	  <td></td>
-          <td>1237</td>
-		<td>339 Junebug Circle</td>
-		<td>James</td>
-      </tr>
+	  
     </table>
   </body>
 
